@@ -1,0 +1,459 @@
+ERROR - 2026-02-16 15:31:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\blog-app\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\xampp\htdocs\blog-app\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\xampp\htdocs\blog-app\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\xampp\htdocs\blog-app\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#13 C:\xampp\htdocs\blog-app\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\xampp\htdocs\blog-app\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\blog-app\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\xampp\htdocs\blog-app\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\blog-app\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\blog-app\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#12 C:\xampp\htdocs\blog-app\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\xampp\htdocs\blog-app\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-02-16 16:35:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\blog-app\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\xampp\htdocs\blog-app\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\xampp\htdocs\blog-app\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\xampp\htdocs\blog-app\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#13 C:\xampp\htdocs\blog-app\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\xampp\htdocs\blog-app\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\blog-app\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\xampp\htdocs\blog-app\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\blog-app\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\blog-app\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#12 C:\xampp\htdocs\blog-app\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\xampp\htdocs\blog-app\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-02-16 16:37:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\blog-app\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\xampp\htdocs\blog-app\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\xampp\htdocs\blog-app\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\xampp\htdocs\blog-app\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#13 C:\xampp\htdocs\blog-app\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\xampp\htdocs\blog-app\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\blog-app\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1565): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\blog-app\system\Database\BaseConnection.php(1585): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\blog-app\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\blog-app\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\xampp\htdocs\blog-app\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\xampp\htdocs\blog-app\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\blog-app\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\blog-app\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#12 C:\xampp\htdocs\blog-app\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\xampp\htdocs\blog-app\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2026-02-16 17:42:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\index.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/index', [], true)
+ 7 APPPATH\Controllers\PostsController.php(11): view('posts/index')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:42:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\index.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/index', [], true)
+ 7 APPPATH\Controllers\PostsController.php(11): view('posts/index')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:42:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\create.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\create.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/create', [], true)
+ 7 APPPATH\Controllers\PostsController.php(16): view('posts/create')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:42:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\create.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\create.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/create', [], true)
+ 7 APPPATH\Controllers\PostsController.php(16): view('posts/create')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:42:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\show.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\show.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/show', [], true)
+ 7 APPPATH\Controllers\PostsController.php(21): view('posts/show')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->show('1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:42:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\show.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\show.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/show', [], true)
+ 7 APPPATH\Controllers\PostsController.php(21): view('posts/show')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->show('1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:42:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\show.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\show.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/show', [], true)
+ 7 APPPATH\Controllers\PostsController.php(21): view('posts/show')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->show('1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:43:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\show.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\show.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/show', [], true)
+ 7 APPPATH\Controllers\PostsController.php(21): view('posts/show')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->show('1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:52:45 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:52:46 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:52:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\create.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\create.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/create', [], true)
+ 7 APPPATH\Controllers\PostsController.php(20): view('posts/create')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 17:53:00 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts/1]
+in APPPATH\Controllers\PostsController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:01:08 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:01:09 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:12:06 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:12:07 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:12:18 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:12:19 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:16:49 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:16:50 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:18 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:18 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:19 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:19 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:35 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:35 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:35 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:36 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:41 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:18:42 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:19:24 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-16 18:19:25 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

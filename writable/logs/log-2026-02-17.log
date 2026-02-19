@@ -1,0 +1,355 @@
+CRITICAL - 2026-02-17 05:48:27 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:48:28 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:56:05 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:56:32 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:56:34 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:59:32 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:59:33 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:59:33 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:59:33 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:59:34 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 05:59:38 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:00:05 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:00:06 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:03:02 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:03:03 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:03:05 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:03:06 --> Error: Class "App\Models\PostModel" not found
+[Method: GET, Route: posts]
+in APPPATH\Controllers\PostsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:12:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\index.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/index', [], true)
+ 7 APPPATH\Controllers\PostsController.php(15): view('posts/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:12:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\index.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/index', [], true)
+ 7 APPPATH\Controllers\PostsController.php(15): view('posts/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:12:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\index.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/index', [], true)
+ 7 APPPATH\Controllers\PostsController.php(15): view('posts/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:13:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\index.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/index', [], true)
+ 7 APPPATH\Controllers\PostsController.php(15): view('posts/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:13:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/header.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('layout/header', [], true)
+ 3 APPPATH\Views\posts\index.php(1): view('layout/header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\blog-app\\app\\Views\\posts\\index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('posts/index', [], true)
+ 7 APPPATH\Controllers\PostsController.php(15): view('posts/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-17 06:25:20 --> Unknown column 'author' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:25:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'author' in 'field list'
+[Method: POST, Route: posts/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:25:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'author' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:25:20 --> [Caused by] mysqli_sql_exception: Unknown column 'author' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'abc\', \'asdf\', \'asd\', \'2026-02-17 06:25:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-17 06:41:02 --> Unknown column 'author' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:41:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'author' in 'field list'
+[Method: POST, Route: posts/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:41:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'author' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-17 06:41:02 --> [Caused by] mysqli_sql_exception: Unknown column 'author' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (\'The grate Leader\', \'abcd\', \'Ravi\', \'2026-02-17 06:41:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`title`, `content`, `author`, `created_at`) VALUES (:title:, :content:, :author:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PostsController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PostsController->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
