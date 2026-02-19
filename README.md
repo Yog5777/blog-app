@@ -39,7 +39,7 @@ and deleting posts through a simple dashboard interface.
 
 ## Screenshots
 ### All Posts Page
-[All Posts](screenshots/all-posts.png)
+[All Posts](app/screenshots/all-posts.png)
 
 ### Add Post
 ![Add Post](screenshots/add-post.png)
